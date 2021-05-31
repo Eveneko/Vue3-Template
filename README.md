@@ -1,27 +1,48 @@
-# Vue 3 + Typescript + Vite
+# Vue 3 + Typescript + Vite Template
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+<!-- [![](https://img.shields.io/github/last-commit/Eveneko/Resume)](https://github.com/Eveneko/Resume/commits/master) -->
+<!-- [![License](https://img.shields.io/github/license/Eveneko/Resume)](https://github.com/Eveneko/Resume/blob/master/LICENSE) -->
 
-## Recommended IDE Setup
+## Technology stack
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+- 编程语言：[TypeScript 4.x](https://www.typescriptlang.org/zh/) + [JavaScript](https://www.javascript.com/)
+- 构建工具：[Vite 2.x](https://cn.vitejs.dev/)
+- 前端框架：[Vue 3.x](https://v3.cn.vuejs.org/)
+- 路由工具：[Vue Router 4.x](https://next.router.vuejs.org/zh/index.html)
+- 状态管理：[Vuex 4.x](https://next.vuex.vuejs.org/)
+- UI 框架：[Element Plus](https://element-plus.org/#/zh-CN)
+- CSS 预编译：[Stylus](https://stylus-lang.com/) / [Sass](https://sass.bootcss.com/documentation) / [Less](http://lesscss.cn/)
+- HTTP 工具：[Axios](https://axios-http.com/)
+- Git Hook 工具：[husky](https://typicode.github.io/husky/#/) + [lint-staged](https://github.com/okonet/lint-staged)
+- 代码规范：[EditorConfig](http://editorconfig.org) + [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation)
+- 提交规范：[Commitizen](http://commitizen.github.io/cz-cli/) + [Commitlint](https://commitlint.js.org/#/)
+- 单元测试：[vue-test-utils](https://next.vue-test-utils.vuejs.org/) + [jest](https://jestjs.io/) + [vue-jest](https://github.com/vuejs/vue-jest) + [ts-jest](https://kulshekhar.github.io/ts-jest/)
+- 自动部署：[GitHub Actions](https://docs.github.com/cn/actions/learn-github-actions)
 
-### If Using `<script setup>`
+## Quick Start
 
-[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
+### 安装依赖
 
-## Type Support For `.vue` Imports in TS
+```sh
+npm install
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
+### 启动项目
 
-### If Using Volar
+```sh
+npm run dev
+```
 
-Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
+### 项目打包
 
-### If Using Vetur
+```sh
+npm run build
+```
 
-1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
-2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
-3. Open `src/main.ts` in VSCode
-4. Open the VSCode command palette
-5. Search and run "Select TypeScript version" -> "Use workspace version"
+## Problem
+
+- Error: esbuild: Failed to install correctly
+
+```sh
+node node_modules/esbuild/install.js
+```
