@@ -46,3 +46,17 @@ npm run build
 ```sh
 node node_modules/esbuild/install.js
 ```
+
+- No package 'pangocairo' found
+
+```sh
+gcc -v # verison>4.2
+brew install gcc@10
+alias gcc="gcc-10"
+alias g++="g++-10"
+alias cc="gcc-10"
+alias c++="c++-10"
+
+brew install cairo
+brew install pango
+```
