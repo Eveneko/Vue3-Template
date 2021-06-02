@@ -1,7 +1,9 @@
 # Vue 3 + Typescript + Vite Template
 
-<!-- [![](https://img.shields.io/github/last-commit/Eveneko/Resume)](https://github.com/Eveneko/Resume/commits/master) -->
-<!-- [![License](https://img.shields.io/github/license/Eveneko/Resume)](https://github.com/Eveneko/Resume/blob/master/LICENSE) -->
+[![Last Commit](https://img.shields.io/github/last-commit/Eveneko/Vue3-Template)](https://github.com/Eveneko/Vue3-Template/commits/master)
+[![License](https://img.shields.io/github/license/Eveneko/Vue3-Template)](https://github.com/Eveneko/Vue3-Template/blob/master/LICENSE)
+[![Deploy](https://img.shields.io/github/workflow/status/Eveneko/Vue3-Template/Vue3%20Template)](https://github.com/Eveneko/Vue3-Template/actions/workflows/deploy.yml)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-Airbnb-hotpink.svg)](https://github.com/lin-123/javascript)
 
 ## Technology stack
 
@@ -60,3 +62,7 @@ alias c++="c++-10"
 brew install cairo
 brew install pango
 ```
+
+## Reference
+
+- https://github.com/XPoet/vite-vue3-starter
